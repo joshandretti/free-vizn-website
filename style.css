@@ -1,0 +1,36 @@
+@font-face {
+    src: url(font/Akira\ Expanded\ Demo\ copy.otf);
+    font-family: akira;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1050px;
+    }
+
+
+.free-vizn-logo {
+    width: 300px;  
+}
+
+.coming {
+    color: white;
+    font-family: akira;
+    padding: 30px;
+}
+
+.coming:hover {
+    color: red;
+    background-color: black;
+}
+
